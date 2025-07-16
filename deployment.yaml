@@ -33,7 +33,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: maheshkumars772/cicd-frontend:latest
+        image: maheshkumars772/cicd-frontend:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 5173
         env:
