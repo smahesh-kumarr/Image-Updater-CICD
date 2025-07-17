@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: maheshkumars772/cicd-client:v19
+        image: maheshkumars772/cicd-client:v20
         imagePullPolicy: Always
         ports:
         - containerPort: 5173
@@ -81,7 +81,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: maheshkumars772/cicd-server:v19
+        image: maheshkumars772/cicd-server:v20
         ports:
         - containerPort: 5000
         env:
